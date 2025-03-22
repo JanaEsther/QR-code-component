@@ -1,15 +1,15 @@
 /* for Mobile: 375px*/
 @media screen and (max-width: 375px) {
-
-
-  .code-container {
+  body {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    margin: 10px;
-    margin-top: 60px;
-
-    width: 100%;
+    align-items: center;
+    padding: 0;
+    height: 100vh;
+    margin: 0px auto;
+    font-family: 'Outfit', sans-serif;
+    background-color: #D5E1EF;
+    max-width: 375px;
   }
 
   .code-box {
@@ -30,19 +30,6 @@
   }
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  height: 100vh;
-  margin: 0px auto;
-  font-family: 'Outfit', sans-serif;
-  background-color: #D5E1EF;
-  max-width: 375px;
-
-
-}
 
 .code-container {
   display: flex;
